@@ -1,25 +1,32 @@
 #!/bin/bash
 
-# Imposta il fuso orario a Italia (CET/CEST)
-export TZ=Europe/Rome
+# === CONFIGURAZIONE ===
+USERNAME="PassiveEgg"
+TOKEN="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"
+REPO="minekraft"  # Cambia se la tua repo ha un altro nome
 
-# Ottieni data e ora formattata in italiano
+# === DATA E ORA ITALIANA ===
+export TZ=Europe/Rome
 DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
 
-# Crea messaggio di commit
+# === MESSAGGIO DEL COMMIT ===
 COMMIT_MESSAGE="Aggiornamento automatico - $DATA_ORA"
 
-# Aggiunge tutti i file modificati/tracciati
+# === URL CON TOKEN ===
+REMOTE_URL="https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/${REPO}.git"
+
+# === IMPOSTA IL REMOTE ===
+git remote set-url origin "$REMOTE_URL"
+
+# === AGGIUNGI, COMMITTA E PUSH ===
 git add .
 
-# Fa il commit (solo se ci sono modifiche)
 if git diff --cached --quiet; then
     echo "✅ Nessuna modifica da committare."
 else
     git commit -m "$COMMIT_MESSAGE"
     echo "📦 Commit creato: $COMMIT_MESSAGE"
 
-    # Fa il push verso origin/main
     git push origin main
     echo "🚀 Push completato!"
 fi
