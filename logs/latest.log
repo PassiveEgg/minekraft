@@ -73,3 +73,10 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [14:01:26] [Server thread/INFO]: Ghibiri joined the game
 [14:01:53] [Server thread/INFO]: ExEnry lost connection: Disconnected
 [14:01:53] [Server thread/INFO]: ExEnry left the game
+[14:22:00] [User Authenticator #48/INFO]: UUID of player ExEnry is b531db4c-6a4f-4d90-b9fe-9e28f9afe551
+[14:22:00] [Server thread/INFO]: ExEnry[/91.254.56.61:64121] logged in with entity id 371442 at (1444.4775114938989, 18.0, 814.4361101164891)
+[14:22:00] [Server thread/INFO]: ExEnry joined the game
+[14:22:26] [Server thread/INFO]: Incorrect argument for command
+[14:22:26] [Server thread/INFO]: ...ygamemode creative ExEnry<--[HERE]
+[14:22:33] [Server thread/INFO]: Set ExEnry's game mode to Creative Mode
+[14:23:05] [Server thread/INFO]: Set ExEnry's game mode to Survival Mode
