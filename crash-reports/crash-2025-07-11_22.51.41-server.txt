@@ -1,0 +1,56 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2025-07-11 22:51:41
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.y(SourceFile:729)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:291)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.6
+	Minecraft Version ID: 1.21.6
+	Operating System: Linux (amd64) version 6.1.0-37-cloud-amd64
+	Java Version: 21, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 223427192 bytes (213 MiB) / 384827392 bytes (367 MiB) up to 1820327936 bytes (1736 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: INTEL(R) XEON(R) PLATINUM 8581C CPU @ 2.30GHz
+	Identifier: Intel64 Family 6 Model 207 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 2.30
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 2798.86
+	Virtual memory used (MiB): 5469.84
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 42672.28, total: 50153.73
+	Space in storage for workdir (MiB): available: 42672.28, total: 50153.73
+	JVM Flags: 0 total; 
+	Server Running: true
+	Active Data Packs: vanilla
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -344291795858629061
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

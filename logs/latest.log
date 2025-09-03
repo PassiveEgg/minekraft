@@ -1,0 +1,75 @@
+[07:36:11] [Netty Epoll Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at zl.a(SourceFile:50) ~[server-1.21.8.jar:?]
+	at zl.encode(SourceFile:14) ~[server-1.21.8.jar:?]
+	at wr.a(SourceFile:26) ~[server-1.21.8.jar:?]
+	at wr.encode(SourceFile:12) ~[server-1.21.8.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wd$2.write(SourceFile:525) ~[server-1.21.8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wd.c(SourceFile:351) ~[server-1.21.8.jar:?]
+	at wd.b(SourceFile:343) ~[server-1.21.8.jar:?]
+	at wd.a(SourceFile:325) ~[server-1.21.8.jar:?]
+	at wd.a(SourceFile:319) ~[server-1.21.8.jar:?]
+	at wd.exceptionCaught(SourceFile:170) ~[server-1.21.8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:46:39] [User Authenticator #42/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[12:46:40] [Server thread/INFO]: Ghibiri[/81.56.36.77:21275] logged in with entity id 341184 at (1436.7207765917092, 16.0, 811.4062555033446)
+[12:46:40] [Server thread/INFO]: Ghibiri joined the game
+[12:56:36] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=402, y=61, z=-1181} jb{x=403, y=61, z=-1182}
+[13:20:26] [User Authenticator #43/INFO]: UUID of player ExEnry is b531db4c-6a4f-4d90-b9fe-9e28f9afe551
+[13:20:26] [Server thread/INFO]: ExEnry[/91.254.56.61:53984] logged in with entity id 355030 at (390.30000001192093, 65.0, -870.868988840879)
+[13:20:26] [Server thread/INFO]: ExEnry joined the game
+[13:21:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[13:25:19] [Server thread/WARN]: ExEnry moved too quickly! 17.523165558527012,-2.682198438634998,0.809590387624894
+[13:27:24] [Server thread/WARN]: ExEnry moved too quickly! -18.156241450161588,-1.6989740834095528,-0.27505288979023135
+[13:27:37] [Server thread/WARN]: ExEnry moved too quickly! -12.91403651231957,-5.848735060660118,-10.165192223555664
+[13:27:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[13:28:46] [Server thread/INFO]: Villager cuf['Villager'/361349, l='ServerLevel[world-ghibiri]', x=236.10, y=63.38, z=-935.90] died, message: 'Villager was squished too much'
+[13:41:36] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[13:41:36] [Server thread/INFO]: Ghibiri left the game
+[13:52:19] [User Authenticator #44/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[13:52:20] [Server thread/INFO]: Ghibiri[/81.56.36.77:23342] logged in with entity id 366812 at (420.4693183970568, 63.9375, -842.9696743642199)
+[13:52:20] [Server thread/INFO]: Ghibiri joined the game
+[13:58:11] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[13:58:11] [Server thread/INFO]: Ghibiri left the game
+[13:59:32] [User Authenticator #45/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[13:59:32] [Server thread/INFO]: Ghibiri[/81.56.36.77:17666] logged in with entity id 368906 at (1447.9880030448505, 18.0, 817.5288915344822)
+[13:59:32] [Server thread/INFO]: Ghibiri joined the game
+[14:00:24] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[14:00:24] [Server thread/INFO]: Ghibiri left the game
+[14:00:38] [User Authenticator #46/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:00:38] [Server thread/INFO]: Ghibiri[/81.56.36.77:18060] logged in with entity id 369200 at (1449.4470965139828, 18.0, 812.643604873566)
+[14:00:38] [Server thread/INFO]: Ghibiri joined the game
+[14:00:45] [Server thread/INFO]: <Ghibiri> gameode 1
+[14:01:20] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[14:01:20] [Server thread/INFO]: Ghibiri left the game
+[14:01:26] [User Authenticator #47/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:01:26] [Server thread/INFO]: Ghibiri[/81.56.36.77:22111] logged in with entity id 369479 at (1448.2520253070982, 18.0, 815.617144893671)
+[14:01:26] [Server thread/INFO]: Ghibiri joined the game
+[14:01:53] [Server thread/INFO]: ExEnry lost connection: Disconnected
+[14:01:53] [Server thread/INFO]: ExEnry left the game
