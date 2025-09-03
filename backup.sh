@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# === CONFIGURAZIONE ===
-USERNAME="PassiveEgg"
-TOKEN="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"
-REPO="minekraft"  # Cambia se la tua repo ha un altro nome
-
 # === DATA E ORA ITALIANA ===
 export TZ=Europe/Rome
 DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
@@ -13,7 +8,7 @@ DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
 COMMIT_MESSAGE="Aggiornamento automatico - $DATA_ORA"
 
 # === URL CON TOKEN ===
-REMOTE_URL="https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/${REPO}.git"
+REMOTE_URL="https://PassiveEgg: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@github.com/PassiveEgg/minekraft.git"
 
 # === IMPOSTA IL REMOTE ===
 git remote set-url origin "$REMOTE_URL"
@@ -30,3 +25,4 @@ else
     git push origin main
     echo "🚀 Push completato!"
 fi
+
