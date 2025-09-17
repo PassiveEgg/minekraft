@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# === Carica il token ===
+source token.env
+
 # === DATA E ORA ITALIANA ===
 export TZ=Europe/Rome
 DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
@@ -8,10 +11,7 @@ DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
 COMMIT_MESSAGE="Aggiornamento automatico - $DATA_ORA"
 
 # === URL CON TOKEN ===
-REMOTE_URL="https://PassiveEgg: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@github.com/PassiveEgg/minekraft.git"
-
-# === IMPOSTA IL REMOTE ===
-git remote set-url origin "$REMOTE_URL"
+git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
 
 # === AGGIUNGI, COMMITTA E PUSH ===
 git add .
