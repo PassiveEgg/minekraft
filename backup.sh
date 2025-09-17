@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # === Carica il token ===
-source token.env
-echo $GITHUB_TOKEN
-
+GITHUB_TOKEN=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
 
 
 # === DATA E ORA ITALIANA ===
