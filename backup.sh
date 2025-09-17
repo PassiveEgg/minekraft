@@ -3,6 +3,9 @@
 # === Carica il token ===
 GITHUB_TOKEN=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
 
+# === URL CON TOKEN ===
+git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
+
 
 # === DATA E ORA ITALIANA ===
 export TZ=Europe/Rome
@@ -11,8 +14,6 @@ DATA_ORA=$(date +"%d-%m-%Y %H:%M:%S")
 # === MESSAGGIO DEL COMMIT ===
 COMMIT_MESSAGE="Aggiornamento automatico - $DATA_ORA"
 
-# === URL CON TOKEN ===
-git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
 
 # === AGGIUNGI, COMMITTA E PUSH ===
 git add .
