@@ -3,8 +3,9 @@
 # === Carica il token ===
 export GITHUB_TOKEN=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
 
+
 # === URL CON TOKEN ===
-git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
+# git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
 
 # Verifica URL remote (opzionale, per debug)
 echo "Remote URL: $(git remote get-url origin)"
