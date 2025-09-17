@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === Carica il token ===
-GITHUB_TOKEN=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
+export GITHUB_TOKEN=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
 
 # === URL CON TOKEN ===
 git remote set-url origin https://PassiveEgg:$GITHUB_TOKEN@github.com/PassiveEgg/minekraft.git
