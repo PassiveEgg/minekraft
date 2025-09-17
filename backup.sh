@@ -2,6 +2,9 @@
 
 # === Carica il token ===
 source token.env
+echo $GITHUB_TOKEN
+
+
 
 # === DATA E ORA ITALIANA ===
 export TZ=Europe/Rome
@@ -22,7 +25,7 @@ else
     git commit -m "$COMMIT_MESSAGE"
     echo "📦 Commit creato: $COMMIT_MESSAGE"
 
-    git push origin main
+    git push origin main --force
     echo "🚀 Push completato!"
 fi
 
