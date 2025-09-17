@@ -20,12 +20,9 @@ COMMIT_MESSAGE="Aggiornamento automatico - $DATA_ORA"
 # === AGGIUNGI, COMMITTA E PUSH ===
 git add .
 
-if git diff --cached --quiet; then
-    echo "✅ Nessuna modifica da committare."
-else
-    git commit -m "$COMMIT_MESSAGE"
-    echo "📦 Commit creato: $COMMIT_MESSAGE"
+git commit -m "$COMMIT_MESSAGE"
+echo "📦 Commit creato: $COMMIT_MESSAGE"
 
-    git push origin main
-    echo "🚀 Push completato!"
-fi
+git push origin main
+echo "🚀 Push completato!"
+
