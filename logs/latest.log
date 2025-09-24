@@ -392,3 +392,213 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [16:03:36] [Server thread/INFO]: Ghibiri lost connection: Timed out
 [16:03:36] [Server thread/INFO]: Ghibiri left the game
 [16:04:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:30:04] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at zl.a(SourceFile:50) ~[server-1.21.8.jar:?]
+	at zl.encode(SourceFile:14) ~[server-1.21.8.jar:?]
+	at wr.a(SourceFile:26) ~[server-1.21.8.jar:?]
+	at wr.encode(SourceFile:12) ~[server-1.21.8.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wd$2.write(SourceFile:525) ~[server-1.21.8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wd.c(SourceFile:351) ~[server-1.21.8.jar:?]
+	at wd.b(SourceFile:343) ~[server-1.21.8.jar:?]
+	at wd.a(SourceFile:325) ~[server-1.21.8.jar:?]
+	at wd.a(SourceFile:319) ~[server-1.21.8.jar:?]
+	at wd.exceptionCaught(SourceFile:170) ~[server-1.21.8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:55:05] [User Authenticator #32/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[16:55:07] [Server thread/INFO]: Ghibiri[/81.56.36.77:23155] logged in with entity id 394800 at (1065.300000011921, 189.0, -784.3000000119209)
+[16:55:07] [Server thread/INFO]: Ghibiri joined the game
+[16:58:48] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[16:58:48] [Server thread/INFO]: Ghibiri left the game
+[16:59:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:00:47] [User Authenticator #33/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[17:00:48] [Server thread/INFO]: Ghibiri[/81.56.36.77:16692] logged in with entity id 397042 at (417.6931158090298, 64.0, -847.3915126282869)
+[17:00:48] [Server thread/INFO]: Ghibiri joined the game
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=43, z=45} jb{x=77, y=43, z=44}
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=43, z=45} jb{x=77, y=43, z=44}
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=43, z=45} jb{x=77, y=43, z=44}
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=43, z=45} jb{x=77, y=43, z=44}
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=42, z=45} jb{x=77, y=43, z=44}
+[17:02:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=40, z=48} jb{x=77, y=42, z=47}
+[17:02:43] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=39, z=51} jb{x=77, y=38, z=51}
+[17:02:43] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=39, z=51} jb{x=77, y=38, z=51}
+[17:02:43] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=39, z=51} jb{x=77, y=38, z=51}
+[17:02:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=39, z=51} jb{x=77, y=38, z=51}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=77, y=37, z=52} jb{x=78, y=40, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=81, y=38, z=48} jb{x=81, y=37, z=48}
+[17:02:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=81, y=38, z=48} jb{x=81, y=37, z=48}
+[17:02:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=37, z=48} jb{x=82, y=36, z=48}
+[17:02:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=37, z=48} jb{x=82, y=36, z=48}
+[17:02:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=37, z=48} jb{x=82, y=36, z=48}
+[17:02:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=37, z=48} jb{x=82, y=36, z=48}
+[17:02:48] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=35, z=48} jb{x=83, y=34, z=48}
+[17:02:48] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=35, z=48} jb{x=83, y=34, z=48}
+[17:02:48] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=35, z=48} jb{x=83, y=34, z=48}
+[17:02:55] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=24, z=35} jb{x=84, y=23, z=36}
+[17:03:13] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=17, z=25} jb{x=84, y=15, z=24}
+[17:03:13] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=17, z=25} jb{x=84, y=15, z=24}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=17, z=25} jb{x=84, y=15, z=24}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:14] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=84, y=15, z=22} jb{x=84, y=14, z=23}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:03:47] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=76, y=14, z=-16} jb{x=75, y=14, z=-17}
+[17:04:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=47, y=14, z=-18} jb{x=47, y=13, z=-19}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=41, y=9, z=-48} jb{x=41, y=9, z=-47}
+[17:04:16] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=39, y=10, z=-49} jb{x=38, y=9, z=-48}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:31] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=24, y=13, z=-69} jb{x=24, y=12, z=-70}
+[17:04:48] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=16, z=-76} jb{x=-8, y=15, z=-75}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:04:51] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=19, z=-79} jb{x=-9, y=19, z=-79}
+[17:05:02] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-8, y=22, z=-87} jb{x=-5, y=19, z=-87}
+[17:05:03] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-5, y=19, z=-88}
+[17:05:03] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-4, y=21, z=-88}
+[17:05:03] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-4, y=21, z=-88}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-4, y=21, z=-88}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-4, y=21, z=-88}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=21, z=-89} jb{x=-4, y=21, z=-88}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=19, z=-91} jb{x=-4, y=21, z=-88}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:04] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:05] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-3, y=18, z=-92} jb{x=-2, y=18, z=-91}
+[17:05:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-1, y=18, z=-95} jb{x=-1, y=17, z=-96}
+[17:05:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-14, y=20, z=-69} jb{x=-15, y=19, z=-69}
+[17:05:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-14, y=18, z=-69} jb{x=-13, y=19, z=-70}
+[17:05:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-14, y=18, z=-69} jb{x=-13, y=19, z=-70}
+[17:05:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-14, y=18, z=-69} jb{x=-13, y=19, z=-70}
+[17:05:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-14, y=18, z=-69} jb{x=-13, y=19, z=-70}
+[17:05:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-11, y=18, z=-61} jb{x=-11, y=18, z=-62}
+[17:05:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-11, y=18, z=-61} jb{x=-11, y=18, z=-62}
+[17:05:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-11, y=18, z=-61} jb{x=-11, y=18, z=-62}
+[17:05:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-11, y=18, z=-61} jb{x=-11, y=18, z=-62}
+[17:05:52] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=14, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-4, y=15, z=-51} jb{x=-4, y=13, z=-52}
+[17:05:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=1, y=11, z=-47} jb{x=0, y=11, z=-46}
+[17:05:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=1, y=11, z=-47} jb{x=0, y=11, z=-46}
+[17:05:55] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=1, y=10, z=-46} jb{x=0, y=11, z=-46}
+[17:06:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=11, y=14, z=-65} jb{x=10, y=14, z=-66}
+[17:06:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=11, y=14, z=-65} jb{x=10, y=14, z=-66}
+[17:06:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=11, y=14, z=-65} jb{x=10, y=14, z=-66}
+[17:06:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=11, y=14, z=-65} jb{x=10, y=14, z=-66}
+[17:06:20] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=12, y=16, z=-67} jb{x=12, y=16, z=-68}
+[17:06:20] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=12, y=16, z=-67} jb{x=12, y=16, z=-68}
+[17:06:20] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=12, y=16, z=-67} jb{x=12, y=16, z=-68}
+[17:06:20] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=12, y=16, z=-67} jb{x=12, y=16, z=-68}
+[17:06:26] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=15, y=19, z=-70} jb{x=16, y=18, z=-70}
+[17:06:26] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=15, y=19, z=-70} jb{x=16, y=18, z=-70}
+[17:06:26] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=15, y=19, z=-70} jb{x=16, y=18, z=-70}
+[17:06:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=23, y=16, z=-83} jb{x=23, y=15, z=-83}
+[17:06:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=23, y=16, z=-83} jb{x=23, y=15, z=-83}
+[17:06:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=23, y=16, z=-83} jb{x=23, y=15, z=-83}
+[17:06:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=23, y=16, z=-83} jb{x=23, y=15, z=-83}
+[17:06:33] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=23, y=16, z=-83} jb{x=23, y=15, z=-83}
+[17:07:15] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=13, y=10, z=-58} jb{x=12, y=13, z=-58}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=11, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:44] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=27, y=11, z=-57} jb{x=19, y=10, z=-59}
+[17:07:58] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=25, y=9, z=-88} jb{x=26, y=10, z=-88}
+[17:08:27] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:08:27] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:08:27] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:08:27] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:08:28] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:08:28] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=33, y=11, z=-74} jb{x=51, y=10, z=-69}
+[17:09:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=20, z=-51} jb{x=88, y=19, z=-52}
+[17:09:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=20, z=-51} jb{x=88, y=19, z=-52}
+[17:09:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=20, z=-51} jb{x=88, y=19, z=-52}
+[17:09:24] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=19, z=-43} jb{x=85, y=18, z=-42}
+[17:09:24] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=82, y=19, z=-43} jb{x=85, y=18, z=-42}
+[17:09:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=80, y=15, z=-27} jb{x=80, y=15, z=-28}
+[17:09:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=80, y=15, z=-27} jb{x=80, y=15, z=-28}
+[17:09:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=80, y=15, z=-27} jb{x=80, y=15, z=-28}
+[17:09:34] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=80, y=15, z=-27} jb{x=80, y=15, z=-28}
+[17:15:23] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[17:15:23] [Server thread/INFO]: Ghibiri left the game
+[17:16:23] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:17:09] [User Authenticator #34/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[17:17:09] [Server thread/INFO]: Ghibiri[/81.56.36.77:20749] logged in with entity id 403218 at (420.1495196621856, 65.0, -834.4876424791423)
+[17:17:09] [Server thread/INFO]: Ghibiri joined the game
