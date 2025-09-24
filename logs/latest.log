@@ -389,3 +389,6 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [14:59:36] [Server thread/INFO]: Ghibiri joined the game
 [15:03:19] [Server thread/INFO]: ExEnry lost connection: Disconnected
 [15:03:19] [Server thread/INFO]: ExEnry left the game
+[16:03:36] [Server thread/INFO]: Ghibiri lost connection: Timed out
+[16:03:36] [Server thread/INFO]: Ghibiri left the game
+[16:04:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
