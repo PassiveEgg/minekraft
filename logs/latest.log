@@ -314,3 +314,78 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=19, z=-16} jb{x=103, y=18, z=-16}
 [14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=19, z=-16} jb{x=103, y=18, z=-16}
 [14:15:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=90, y=32, z=-16} jb{x=98, y=26, z=-16}
+[14:17:13] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=56} jb{x=105, y=13, z=55}
+[14:17:13] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=56} jb{x=105, y=13, z=55}
+[14:17:13] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=56} jb{x=105, y=13, z=55}
+[14:17:37] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=59} jb{x=105, y=14, z=63}
+[14:17:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=59} jb{x=105, y=14, z=66}
+[14:18:02] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[14:18:02] [Server thread/INFO]: Ghibiri left the game
+[14:18:25] [Server thread/INFO]: Ghibiri (/81.56.36.77:18148) lost connection: Disconnected
+[14:18:35] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=59} jb{x=105, y=14, z=65}
+[14:19:19] [User Authenticator #27/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:19:20] [Server thread/INFO]: Ghibiri[/81.56.36.77:19961] logged in with entity id 376241 at (105.68798185268751, 14.0, 65.9184252340938)
+[14:19:20] [Server thread/INFO]: Ghibiri joined the game
+[14:19:26] [User Authenticator #28/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:19:26] [Server thread/INFO]: Ghibiri lost connection: You logged in from another location
+[14:19:26] [Server thread/INFO]: Ghibiri left the game
+[14:19:26] [Server thread/WARN]: handleDisconnection() called twice
+[14:19:27] [Server thread/INFO]: Ghibiri[/81.56.36.77:20311] logged in with entity id 376252 at (105.3835373985167, 11.0, 61.53032957746768)
+[14:19:27] [Server thread/INFO]: Ghibiri joined the game
+[14:19:29] [User Authenticator #29/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:19:29] [Server thread/INFO]: Ghibiri lost connection: You logged in from another location
+[14:19:29] [Server thread/INFO]: Ghibiri left the game
+[14:19:29] [Server thread/WARN]: handleDisconnection() called twice
+[14:19:29] [Server thread/INFO]: Ghibiri[/81.56.36.77:19138] logged in with entity id 376253 at (105.3835373985167, 11.0, 61.53032957746768)
+[14:19:29] [Server thread/INFO]: Ghibiri joined the game
+[14:19:59] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=105, y=14, z=59} jb{x=103, y=11, z=38}
+[14:20:50] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=10, z=15} jb{x=109, y=12, z=-48}
+[14:22:49] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=125, y=10, z=-60} jb{x=149, y=9, z=-67}
+[14:25:39] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=122, y=16, z=-26} jb{x=111, y=12, z=55}
+[14:25:43] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[14:25:43] [Server thread/INFO]: Ghibiri left the game
+[14:25:47] [User Authenticator #30/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:25:47] [Server thread/INFO]: Ghibiri[/81.56.36.77:19723] logged in with entity id 379372 at (118.30000001192093, 11.0, 56.64065443938153)
+[14:25:47] [Server thread/INFO]: Ghibiri joined the game
+[14:26:03] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=110, y=12, z=56} jb{x=109, y=12, z=57}
+[14:26:08] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=117, y=12, z=56} jb{x=117, y=13, z=56}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:26:46] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=79, y=11, z=61} jb{x=79, y=11, z=62}
+[14:27:00] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=70, y=13, z=61} jb{x=70, y=13, z=58}
+[14:27:09] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=66, y=11, z=67} jb{x=66, y=11, z=68}
+[14:27:09] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=66, y=11, z=67} jb{x=66, y=11, z=68}
+[14:27:09] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=66, y=11, z=67} jb{x=66, y=11, z=68}
+[14:27:21] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=70, y=13, z=61} jb{x=73, y=11, z=67}
+[14:28:28] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=67, y=11, z=72} jb{x=66, y=10, z=72}
+[14:28:28] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=67, y=11, z=72} jb{x=66, y=10, z=72}
+[14:29:32] [Server thread/INFO]: <Ghibiri> tra un po ce la smok ?
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:54] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:55] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:30:55] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=108, y=11, z=-64} jb{x=104, y=11, z=-72}
+[14:33:07] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=94, y=11, z=-70} jb{x=98, y=23, z=-16}
+[14:36:11] [Server thread/INFO]: Ghibiri has completed the challenge [Cover Me in Debris]
+[14:37:15] [Server thread/INFO]: ExEnry has completed the challenge [Cover Me in Debris]
+[14:38:13] [Server thread/WARN]: ExEnry moved too quickly! -15.373942348028834,1.699090949790488,-9.597429205449316
+[14:40:08] [Server thread/INFO]: Ghibiri has made the advancement [Crafting a New Look]
+[14:52:40] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=395, y=64, z=-936} jb{x=396, y=64, z=-939}
+[14:56:20] [Server thread/INFO]: <Ghibiri> hai mezzini?
+[14:56:30] [Server thread/INFO]: <Ghibiri> shit
+[14:59:16] [Server thread/INFO]: Ghibiri lost connection: Disconnected
+[14:59:16] [Server thread/INFO]: Ghibiri left the game
+[14:59:35] [User Authenticator #31/INFO]: UUID of player Ghibiri is 16bc20a0-9c8c-471b-a921-c9a5f4d76eb7
+[14:59:36] [Server thread/INFO]: Ghibiri[/81.56.36.77:22916] logged in with entity id 391076 at (1065.300000011921, 189.0, -784.3000000119209)
+[14:59:36] [Server thread/INFO]: Ghibiri joined the game
+[15:03:19] [Server thread/INFO]: ExEnry lost connection: Disconnected
+[15:03:19] [Server thread/INFO]: ExEnry left the game
