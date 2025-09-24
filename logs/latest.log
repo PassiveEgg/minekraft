@@ -267,3 +267,50 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 [12:59:01] [User Authenticator #26/INFO]: UUID of player ExEnry is b531db4c-6a4f-4d90-b9fe-9e28f9afe551
 [12:59:02] [Server thread/INFO]: ExEnry[/91.254.56.61:50637] logged in with entity id 341095 at (389.30000001192093, 69.0625, -864.5263911817839)
 [12:59:02] [Server thread/INFO]: ExEnry joined the game
+[13:16:49] [Server thread/INFO]: Villager cuf['Villager'/333558, l='ServerLevel[world-ghibiri]', x=236.17, y=63.44, z=-935.85] died, message: 'Villager was squished too much'
+[13:17:30] [Server thread/INFO]: Villager cuf['Villager'/333561, l='ServerLevel[world-ghibiri]', x=236.14, y=63.38, z=-935.80] died, message: 'Villager was squished too much'
+[13:18:12] [Server thread/INFO]: Villager cuf['Villager'/333556, l='ServerLevel[world-ghibiri]', x=236.70, y=63.26, z=-935.73] died, message: 'Villager was squished too much'
+[13:22:20] [Server thread/INFO]: Villager cuf['Villager'/333554, l='ServerLevel[world-ghibiri]', x=236.12, y=63.63, z=-935.86] died, message: 'Villager was squished too much'
+[13:23:36] [Server thread/INFO]: Villager cuf['Villager'/333555, l='ServerLevel[world-ghibiri]', x=236.70, y=63.29, z=-935.85] died, message: 'Villager was squished too much'
+[13:24:38] [Server thread/INFO]: Villager cuf['Villager'/333553, l='ServerLevel[world-ghibiri]', x=236.37, y=63.21, z=-935.88] died, message: 'Villager was squished too much'
+[13:36:01] [Server thread/INFO]: Villager cuf['Villager'/333551, l='ServerLevel[world-ghibiri]', x=236.70, y=63.28, z=-935.77] died, message: 'Villager was squished too much'
+[13:39:28] [Server thread/INFO]: Villager cuf['Villager'/333560, l='ServerLevel[world-ghibiri]', x=236.14, y=63.41, z=-935.80] died, message: 'Villager was squished too much'
+[13:39:54] [Server thread/INFO]: Villager cuf['Villager'/333546, l='ServerLevel[world-ghibiri]', x=236.11, y=63.39, z=-935.88] died, message: 'Villager was squished too much'
+[13:43:30] [Server thread/INFO]: Villager cuf['Villager'/333563, l='ServerLevel[world-ghibiri]', x=236.34, y=63.36, z=-935.88] died, message: 'Villager was squished too much'
+[13:50:54] [Server thread/INFO]: <Ghibiri> -310 -599
+[13:51:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-239, y=86, z=-433} jb{x=-238, y=86, z=-433}
+[13:51:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-239, y=86, z=-433} jb{x=-238, y=86, z=-433}
+[13:51:53] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-239, y=86, z=-433} jb{x=-238, y=86, z=-433}
+[13:52:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-284, y=87, z=-433} jb{x=-281, y=87, z=-433}
+[13:52:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-284, y=87, z=-433} jb{x=-285, y=87, z=-433}
+[13:52:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-284, y=87, z=-433} jb{x=-285, y=87, z=-433}
+[13:52:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-284, y=87, z=-433} jb{x=-285, y=87, z=-433}
+[13:52:06] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-284, y=87, z=-433} jb{x=-285, y=87, z=-433}
+[13:55:02] [Server thread/INFO]: <Ghibiri> -317 52 -6643
+[13:55:06] [Server thread/INFO]: <Ghibiri> -317 52 -643
+[13:55:07] [Server thread/INFO]: <Ghibiri> -317 52 -643
+[13:55:07] [Server thread/INFO]: <Ghibiri> -317 52 -643
+[13:55:07] [Server thread/INFO]: <Ghibiri> -317 52 -643
+[13:55:07] [Server thread/INFO]: <Ghibiri> -317 52 -643
+[13:55:57] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=-163, y=77, z=-460} jb{x=-163, y=80, z=-464}
+[14:14:18] [Server thread/INFO]: <Ghibiri> Nether Wastes
+[14:15:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=62, y=58, z=-12} jb{x=84, y=41, z=-16}
+[14:15:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=85, y=41, z=-16} jb{x=84, y=41, z=-16}
+[14:15:17] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=85, y=40, z=-16} jb{x=84, y=41, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=85, y=38, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=88, y=37, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=88, y=37, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=88, y=37, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=88, y=37, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=88, y=38, z=-16} jb{x=88, y=37, z=-16}
+[14:15:19] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=89, y=37, z=-16} jb{x=88, y=37, z=-16}
+[14:15:24] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=94, y=32, z=-16} jb{x=95, y=27, z=-16}
+[14:15:24] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=94, y=32, z=-16} jb{x=95, y=27, z=-16}
+[14:15:29] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=103, y=20, z=-16} jb{x=103, y=19, z=-16}
+[14:15:29] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=103, y=20, z=-16} jb{x=103, y=19, z=-16}
+[14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=103, y=20, z=-16} jb{x=103, y=19, z=-16}
+[14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=103, y=18, z=-16} jb{x=103, y=19, z=-16}
+[14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=19, z=-16} jb{x=103, y=18, z=-16}
+[14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=19, z=-16} jb{x=103, y=18, z=-16}
+[14:15:30] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=104, y=19, z=-16} jb{x=103, y=18, z=-16}
+[14:15:41] [Server thread/WARN]: Mismatch in destroy block pos: jb{x=90, y=32, z=-16} jb{x=98, y=26, z=-16}
